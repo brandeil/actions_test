@@ -38,3 +38,5 @@ jobs:
       # terraform line
       - name: Terraform validate
         uses: dflook/terraform-validate@v1
+        with:
+          path: .
