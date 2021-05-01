@@ -36,5 +36,5 @@ jobs:
           echo test, and deploy your project.
           
       # terraform line
-      - name: Terraform linting
-        uses: actionshub/terraform-lint@main
+      - name: Terraform validate
+        uses: dflook/terraform-validate@v1
