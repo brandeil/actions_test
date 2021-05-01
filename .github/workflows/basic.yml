@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      # terraform line
+      - name: Terraform linting
+        uses: actionshub/terraform-lint@main
